@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.binance.desktop</id>
+  <name>Binance Desktop</name>
+  <developer_name>Binance</developer_name>
+  <summary>Crypto currency exchange</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <url type="homepage">https://binance.com/</url>
+  <url type="bugtracker">https://github.com/andersrh/flatpak/issues</url>
+  <description>
+    <p>
+      Binance is the largest crypto currency exchange and this is the Binance Desktop app as a flatpak.
+    </p>
+    <p>
+    Note: This flatpak is maintained by the community, and is not necessarily endorsed or officially maintained by Binance.
+    </p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://bin.bnbstatic.com/static/images/electron/electron-enhance.png</image> 
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="1.47.0" date="2023-10-07"/>
+    <release version="1.46.4" date="2023-08-22"/>
+    <release version="1.46.2" date="2023-08-01"/>
+    <release version="1.46.0" date="2023-07-16"/>
+    <release version="1.45.2" date="2023-07-01"/>
+  </releases>
+  <content_rating type="oars-1.1" />
+  <provides>
+    <id>com.binance.desktop</id>
+  </provides>
+  <update_contact>flatpakmaintainer@a.rytter.me</update_contact>
+</component>
